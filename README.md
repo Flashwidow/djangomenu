@@ -27,7 +27,7 @@
    git clone https://github.com/Flashwidow/djangomenu
 3. Перейдите в директорию вашего проекта:
    ```shell
-   cd myproject
+   cd <название_директории>
 4. Установите зависимости, указанные в файле requirements.txt:
    ```shell
    pip install -r requirements.txt
