@@ -5,8 +5,10 @@
 </head>
 <body>
     <div class="menu">
+        {% autoescape off %}
         {% load menu_tags %}
         {% draw_menu 'main_menu' %}
+        {% endautoescape %}
     </div>
 </body>
 </html>
