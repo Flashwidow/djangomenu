@@ -35,10 +35,16 @@
    ```shell
    python3 manage.py makemigrations menuapp
    python3 manage.py migrate
-6. Запустите локальный сервер:
+6. Создайте суперпользователя для использования админки django:
+   ```shell
+   python3 manage.py createsuperuser
+
+7. Запустите локальный сервер:
    ```shell
    python3 manage.py runserver
 Сервер будет доступен по адресу http://localhost:8000/.
+Адреса доступные для перехода http://localhost:8000/, http://localhost:8000/about/, http://localhost:8000/admin/
+в панели админ можно настраивать структуру дерева добавляя parent и child
 ## Автор
 
 - Маликов Олим ([email](olimmalikov@mail.ru))
